@@ -1,0 +1,39 @@
+// USER schema/model-------------------------------------------
+
+[
+  {
+    "firstName": "Michael",
+    "lastName": "Keaton",
+    "email": "notBatman@gmail.com",
+    "password": "batman1991",
+    "mobileNo": "09271234567"
+  },
+
+  {
+    "firstName": "Tobby",
+    "lastName": "Maguire",
+    "email": "spiderman@gmail.com",
+    "password": "spidermanOG",
+    "mobileNo": "093211234"
+  },
+
+  {
+    "firstName": "Tee Jae",
+    "lastName": "Calinao",
+    "email": "admin@gmail.com",
+    "password": "Teacher",
+    "mobileNo": "09261234567"
+  },
+
+  {
+    "firstName": "Mongo",
+    "lastName": "Taro",
+    "email": "monmonmon@gmail.com",
+    "password": "monmon",
+    "mobileNo": "6546803454"
+  }
+]
+
+// PRODUCT schema/model-------------------------------------------
+
+
