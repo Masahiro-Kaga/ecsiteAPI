@@ -9,21 +9,21 @@ const UserSchema = new mongoose.Schema({
         type:String,
         required: [true, "Last name is required."]
     },
-    MobileNo : {
+    mobileNo : {
         type:String,
         required: [true, "Mobile number is required."]
     },
-    Email : {
+    email : {
         type:String,
         required: [true, "Email is required."]
     },
-    Password : {
+    password : {
         type:String,
         required: [true, "Password is required."]
     },
     isAdmin : {
         type:Boolean,
-        default:true
+        default:false
     },
     products :[
         {

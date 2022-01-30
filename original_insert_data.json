@@ -1,12 +1,14 @@
-// USER schema/model-------------------------------------------
-
 [
+  // USER schema/model-------------------------------------------
   {
     "firstName": "Michael",
     "lastName": "Keaton",
     "email": "notBatman@gmail.com",
     "password": "batman1991",
     "mobileNo": "09271234567"
+  },
+  {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZjYzMDQ2ODc1NmVmMjM5ZjJiMjUxMCIsImVtYWlsIjoibm90QmF0bWFuQGdtYWlsLmNvbSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY0MzUzNTE3N30.NlThDnxIofT5GZbDH20XoV0t40e1PxdIaD4iJVM4pkg"
   },
 
   {
@@ -31,9 +33,26 @@
     "email": "monmonmon@gmail.com",
     "password": "monmon",
     "mobileNo": "6546803454"
+  },
+  // PRODUCT schema/model-------------------------------------------
+  {
+    "name": "Apple",
+    "description": "Sweeeeet",
+    "price": 1500
+  },
+  {
+    "name": "Mango",
+    "description": "Freeeesh",
+    "price": 2000
+  },
+  {
+    "name": "Pine",
+    "description": "Yummy",
+    "price": 2500
+  },
+  {
+    "name": "Banana",
+    "description": "Delicious",
+    "price": 3000
   }
 ]
-
-// PRODUCT schema/model-------------------------------------------
-
-

@@ -14,5 +14,8 @@ app.use(express.json());
 const userRoutes = require("./routes/userRoutes");
 app.use('/users',userRoutes);
 
+const productRoutes = require("./routes/productRoutes");
+app.use('/products',productRoutes)
+
 
 app.listen(port,()=>console.log(`Server Running on LocalHost:${port}`));
